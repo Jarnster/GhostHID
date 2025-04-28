@@ -1,4 +1,6 @@
-# Airgapped Stealth RCE
+# RedHID - Redteaming Tool for manipulating a Human Interface Device -  Airgapped Stealth RCE
+
+**⚠️ Disclaimer! For educational and authorized testing purposes only. Unauthorized use is illegal. You are responsible for any trouble you may cause by using this tool.**
 
 ## Introduction
 
