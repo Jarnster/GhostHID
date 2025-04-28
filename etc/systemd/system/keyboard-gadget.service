@@ -1,0 +1,11 @@
+[Unit]
+Description=Setup USB HID Keyboard Gadget
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/keyboard-gadget.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
