@@ -48,8 +48,63 @@ key_map_qwerty = {
     'CAPSLOCK': 0x39,
 }
 
-key_map_azerty = key_map_qwerty.copy()
-# You can override AZERTY-specific keys here if needed
+key_map_azerty = {
+    'A': 0x14,  # Q key on QWERTY
+    'B': 0x05,
+    'C': 0x06,
+    'D': 0x07,
+    'E': 0x08,
+    'F': 0x09,
+    'G': 0x0A,
+    'H': 0x0B,
+    'I': 0x0C,
+    'J': 0x0D,
+    'K': 0x0E,
+    'L': 0x0F,
+    'M': 0x36,  # COMMA key on QWERTY
+    'N': 0x11,
+    'O': 0x12,
+    'P': 0x13,
+    'Q': 0x04,  # A key on QWERTY
+    'R': 0x15,
+    'S': 0x16,
+    'T': 0x17,
+    'U': 0x18,
+    'V': 0x19,
+    'W': 0x1D,  # Z key on QWERTY
+    'X': 0x1B,
+    'Y': 0x1C,
+    'Z': 0x1A,  # W key on QWERTY
+
+    '1': 0x1E,
+    '2': 0x1F,
+    '3': 0x20,
+    '4': 0x21,
+    '5': 0x22,
+    '6': 0x23,
+    '7': 0x24,
+    '8': 0x25,
+    '9': 0x26,
+    '0': 0x27,
+
+    'ENTER': 0x28,
+    'ESC': 0x29,
+    'BACKSPACE': 0x2A,
+    'TAB': 0x2B,
+    'SPACE': 0x2C,
+    'MINUS': 0x2D,
+    'EQUAL': 0x2E,
+    'LEFTBRACE': 0x2F,
+    'RIGHTBRACE': 0x30,
+    'SEMICOLON': 0x33,
+    'APOSTROPHE': 0x34,
+    'GRAVE': 0x35,
+    'COMMA': 0x36,
+    'DOT': 0x37,
+    'SLASH': 0x38,
+    'CAPSLOCK': 0x39,
+}
+
 
 key_map = key_map_azerty if USE_AZERTY else key_map_qwerty
 

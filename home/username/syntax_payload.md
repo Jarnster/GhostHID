@@ -1,4 +1,4 @@
-# Duckyscript Syntax - Raspberry Pi HID Runner
+# Payload Runner Syntax - Raspberry Pi HID Runner
 
 ## Basic Commands
 
@@ -29,3 +29,7 @@ ENTER
 DELAY 1000
 STRING Hello World!
 ENTER
+
+## Run the payload
+```bash
+python3 payload_runner.py payload.txt azerty```
