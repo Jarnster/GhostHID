@@ -173,7 +173,7 @@ def type_text(hidg, text):
         else:
             print(f"[!] Unknown character '{char}'")
 
-def run_ducky_script(hidg, file_path):
+def run_payload_script(hidg, file_path):
     try:
         with open(file_path, 'r') as f:
             lines = f.readlines()
@@ -243,7 +243,7 @@ def main():
     key_map = key_map_azerty if USE_AZERTY else key_map_qwerty
 
     hidg = open_hid_device()
-    run_ducky_script(hidg, file_path)
+    run_payload_script(hidg, file_path)
     os.close(hidg)
 
 if __name__ == "__main__":
